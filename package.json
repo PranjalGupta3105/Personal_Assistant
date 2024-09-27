@@ -1,0 +1,25 @@
+{
+  "name": "personal_assistant",
+  "version": "1.0.0",
+  "description": "Personal GPT Assistant",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "Assistant",
+    "GPT"
+  ],
+  "author": "Pranjal Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/core": "^0.3.3",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.3.2"
+  }
+}
